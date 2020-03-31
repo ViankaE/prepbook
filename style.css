@@ -1,0 +1,92 @@
+#title{
+  text-align: center;
+  background: rgb(80,199,199);
+  color:rgb(white);
+  font-family:'Roboto', sans-serif;
+  }
+
+#title:hover{
+  text-align:center;
+  color:rgb(80,199,199);
+   font-family:'Roboto', sans-serif;
+}
+#wrapper{
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-emplate-row: 500px;
+  grid-gap: 10px;
+  justify-items: center;
+  background:rgb(199,80,163)
+}
+
+#pic{
+  width: 100%;
+  height:500px;
+  border-radius:10%
+  }
+#img{
+width:20%;
+height:40px
+}
+
+#name{
+color:rgb(80, 143, 199);
+font-size:20px;
+font-family:'Comic Neue', cursive;
+font-weight:bold;
+}
+
+#quote{
+color:rgb(80, 143, 199);
+font-family:'Comic Neue', cursive;
+font-size:15px
+}
+
+#quote:hover{
+  color:rgb(199, 80, 162);
+  font-family:'Baloo Thambi 2', cursive;
+  font-size:15x;
+  font-weight:bold;
+
+}
+
+#superlative{
+color:rgb(199, 60, 148);
+font-family:'Open Sans', sans-serif;
+font-weight:bold;
+}
+
+#superlative:hover{
+color: rgb(199, 60, 148);
+font-family:'Open Sans', sans-serif;
+}
+#next{
+background color:rgb(80, 199, 91)
+border:white dotted;
+color:white;
+padding:10px 24px;
+border-radius:40px;
+text-align:center;
+display:inline-block;
+font-size:14px;
+  
+}
+#next:hover{
+  background color:rgb(80, 199, 91);
+color:white;
+}
+
+#back{
+ackground color:rgb(80, 199, 91)
+border:white dotted;
+color:white;
+padding:10px 24px;
+border-radius:40px;
+text-align:center;
+display:inline-block;
+font-size:14px;
+}
+#back:hover{
+ background color:rgb(80, 199, 91);
+color:white; 
+}
