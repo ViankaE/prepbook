@@ -7,34 +7,34 @@ let students=[
 profileImage:"https://mail.google.com/mail/u/0?ui=2&ik=620a0b717d&attid=0.1&permmsgid=msg-f:1662187997454246404&th=1711472d522da204&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-k-92xZqqToQyxyCiisDuBhVvACsRTqGIipbTO8vt7VYPyvJx5AQthQJrXInv2FyiIVG81i-uqZD7dsrwqqI5XYgH6iHMNkm-nzGg1oHfnm-kqsa_RxMMbwOE&disp=emb&realattid=3aa2f19e36875502_0.1.1",
 name: "James Greene",
 quote:"Rest at the end not in the middle-kobe.",
-superlative:"Most athletic"
+superlative:"Most athletic",
 },
   {
 profileImage:"https://mail.google.com/mail/u/0?ui=2&ik=620a0b717d&attid=0.1&permmsgid=msg-f:1662188495297651739&th=171147a13bf5241b&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-Wwb-JoxPAiWQ_BzDV4TLm_xTqnggKKW6Vpw5975ZgBFmZCF-IGZtS2JGgFzakyg7BvbrriAAkGnZnJ67iMOWqRLemlZjSGhGor-9k5k4cYegxpyOAf2pVkVA&disp=emb&realattid=1711479969aa5d507f61",
  name:"Mayhelly Vargas",
  quote:"Be the change you want to see in the world -Gandhi",
-  superlative:"Best Personality"
+  superlative:"Best Personality",
   },
 {
   
 profileImage:"https://mail.google.com/mail/u/0?ui=2&ik=620a0b717d&attid=0.2&permmsgid=msg-f:1662188495297651739&th=171147a13bf5241b&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_MHTJd6rCEmRuVUIV1JMW33cPEGYjkS7LUpLkjlucwntFhJ-Xg3VFQDcHbfdgyq4NXu7oqY7H_N9i6gPwxSvCyM_WJXM545A7CvwrJotuEXozEiYUWe38mAUk&disp=emb&realattid=1711479bb5ffbc460312",
 name:"Fatima Reyes",
 quotes:"Be the real you",
-superlative:"Best Dramatic"
+superlative:"Best Dramatic",
 },
   
 {
 profileImage:"https://mail.google.com/mail/u/0?ui=2&ik=620a0b717d&attid=0.3&permmsgid=msg-f:1662188495297651739&th=171147a13bf5241b&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-Abbtga5-iPZkssOBjH-3mu1qg7dDBX_VKMpXVb-EPi5p5gYi7nx0DqLAWKmk9csBFWX6gwnGexYsQ7Oib8jPMdu73x8z94FpX7qwP6FOfBdtkBt62NMRRhjU&disp=emb&realattid=1711479d5c5804e0b2d3",
 name: "Nayeli Robles",
 quotes:"Try your best ",
-superlative:"Best Quite"
+superlative:"Best Quite",
 },
 
   {
 profileImage:"https://mail.google.com/mail/u/0?ui=2&ik=620a0b717d&attid=0.1&permmsgid=msg-f:1662345371625611485&th=1711d64ed9c260dd&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-QR4jLmIAc0MtrUOgz2FRFpVaUi7X3Vbtuw3ibTviy-Uf1pBI-r5YeoyncwHYG9iFIhsew_QT4MRaZsqNhH15WKMaeJY1EiSBgFKnIVxfI8zzQuVunafKMY4A&disp=emb&realattid=98dff98feeb34fa5_0.1.1",
 name:"Miranda Cabrera",
 quote:"Renegade for life",
-superlative:"Best Goofy"
+superlative:"Best Goofy",
   },
   
   {
@@ -48,7 +48,7 @@ superlative:"Best Goofy"
   profileImage:"https://mail.google.com/mail/u/0?ui=2&ik=620a0b717d&attid=0.1&permmsgid=msg-f:1662347770391605567&th=1711d87d5b5ab13f&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_pgiarJAmgz_w3svJtClNKi76F76yJ3jyp3oGjwzEgt5NSScL5DMPey-LGjsiJSARo_BKPi2EhNwxqAKBiZWvIDGe4-STnCycYN0zYK3qxSfxeacLWP5ur4Fk&disp=emb&realattid=5c41a9dd11accf17_0.1.1",
   name:"Djaliatou Barry",
   quote:"You love me ",
-  superlative:"Best Smile"
+  superlative:"Best Smile",
   },
 
 {
@@ -66,12 +66,8 @@ quote:"Catch me on a good day",
 superlative:"Best Realest",
 },
   
-{
-profileImage:"https://mail.google.com/mail/u/0?ui=2&ik=620a0b717d&attid=0.1&permmsgid=msg-f:1662556907088955428&th=171296b2c9e8c824&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_rRRdvxuY7PN3w6Hz6lQiYMeLnKK_FNMag978znBSHQFfdFIQmt_07bRHV0UMler-HmbeY_1Iwyw_zjJIpFcOyQ-jyxVSg3eRWo3n4CQBXO5ACjVg6Kbsj6cI&disp=emb&realattid=171296ae1fafff8acf41",
-name:"Vianka Ellington",
-quote:"You only live once",
-superlative:"Best Peformer"
-},
+
+
 ]
 
 let count= 0
@@ -93,17 +89,6 @@ document.querySelector("#superlative").innerHTML=students[count].superlative
 
 backButton.addEventListener("click",()=>{
 console.log('back')
-count--
-console.log(count)
-document.querySelector("#pic").src= students[count].profileImage
-document.querySelector("#name").innerHTML=students[count].name
-document.querySelector("#quote").innerHTML=students[count].quote
-document.querySelector("#superlative").innerHTML=students[count].superlative
-
-})
-
-homeButton.addEventListener("click",()=>{
-console.log('home')
 count--
 console.log(count)
 document.querySelector("#pic").src= students[count].profileImage
